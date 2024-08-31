@@ -7,7 +7,7 @@
     "start": "webpack-dev-server --config=config/webpack.dev.js --open --host 0.0.0.0",
     "build": "webpack --config=config/webpack.prod.js"
   },
-  "author": " j",
+  "author": "Yago Estévez",
   "keywords": [
     "membership",
     "form",
@@ -28,7 +28,6 @@
     "file-loader": "^1.1.11",
     "html-loader": "^0.5.5",
     "mini-css-extract-plugin": "^0.4.0",
-    "node-sass": "^4.9.2",
     "postcss-loader": "^2.1.5",
     "precss": "^3.1.2",
     "sass-loader": "^7.0.3",
@@ -38,6 +37,7 @@
     "webpack-dev-server": "^3.1.4"
   },
   "dependencies": {
-    "normalize.css": "^8.0.0"
+    "normalize.css": "^8.0.0",
+    "sass": "^1.77.8"
   }
 }
